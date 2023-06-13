@@ -1,0 +1,235 @@
+.container-setting {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 100vh; */
+    width: 84.6vw;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.inner-setting {
+    height: 100%;
+    width: 80%;
+    /* background-color: white; */
+    /* border: 2px solid black; */
+}
+
+.heading-setting {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+
+.heading-setting-h2 {
+    /* margin-left: 30px; */
+    /* border: 2px solid blue; */
+}
+
+.general-information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.general-information-h2 {
+    margin-left: 30px;
+    /* border: 2px solid blue; */
+}
+
+.general-information-main{
+    display: flex;
+    border: 2px solid blue;
+}
+
+.general-information-main-left{
+    width: 50%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border: 2px solid black;
+    
+}
+.change-pic-username-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    /* flex-direction: column; */
+    /* border: 2px solid black; */
+}
+
+.change-pic-username-email img {
+    /* position: absolute; */
+  display: flex;
+  height: 150px;
+  margin-top: 0;
+  border-radius: 5px;
+  object-fit: contain;
+  border: 2px solid purple;
+  /* z-index: 1; */
+}
+
+
+
+
+.change-pic-username-email-title{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 50%;
+    border: 2px solid orange;
+}
+
+.change-pic-username{
+    margin: 0;
+    border: 2px solid yellow;
+}
+
+.change-pic-username p{
+    margin: 0;
+}
+
+.change-pic-email {
+    margin: 0;
+    border: 2px solid yellow;
+}
+
+.change-pic-email p{
+    margin: 0;
+}
+/* .change-pic-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    border: 2px solid blue;
+} */
+
+/* .change-pic-btn {
+    text-align: center;
+    height: 45px;
+    width: 150px;
+    margin-right: 100px;
+    border-radius: 5px;
+    color: rgb(191, 191, 191);
+    background-color: white;
+    border: 2px solid  rgb(191, 191, 191);;
+} */
+
+
+.general-information-main-right{
+    width: 50%;
+    border: 2px solid red;
+}
+
+.general-information-username {
+    display: flex;
+    margin-bottom: 15px;
+    /* border: 2px solid purple; */
+}
+
+.general-information-username-content {
+    width: 50%;
+    margin-left:100px ;
+    /* border: 2px solid pink; */
+}
+
+.general-information-username-content p {
+    margin: 0;
+}
+
+.general-information-username-content-input {
+    max-width: 380px;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    height: 5vh;
+    border-radius: 5px;
+    display: flex;
+    /* justify-content: center; */
+align-items: center;
+    /* grid-template-columns: 15% 85% ; */
+    padding: 0 0.4rem;
+    position: relative;
+    border: 1px solid grey;
+}
+
+.username-logo {
+    text-align: center;
+    height: 35px;
+    
+    /* border: none; */
+    /* border-radius: 55px; */
+}
+
+.general-information-username-content-input input {
+    background: none;
+    outline: none;
+    border: none;
+    height: 5vh;
+    width: 90%;
+    margin-left: 10px;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+    /* border: 2px solid blue; */
+}
+.general-information-change-username-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+/* .change-username-btn {
+    height: 45px;
+    width: 150px;
+    margin-right: 100px;
+    border-radius: 5px;
+    color: rgb(191, 191, 191);
+    background-color: white;
+    border: 2px solid  rgb(191, 191, 191);;
+} */
+
+.general-information-hr {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.setting-option {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* flex-direction: column; */
+    width: 100%;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.setting-option p{
+ margin-left: 10px;
+ margin-right: 20px;
+ color: rgb(185, 185, 185);
+ cursor: pointer;
+ transition: 0.1s;
+     /* border-radius: 8px;
+    background-color: white;
+    border: 1px solid rgb(185, 185, 185); */
+}
+
+.setting-option p:hover {
+    border-top:2px solid black;
+    color: black;
+}

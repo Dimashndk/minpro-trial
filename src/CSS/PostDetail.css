@@ -1,0 +1,132 @@
+.post-detail-container {
+  position: absolute;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  border: 1px solid rgb(235, 235, 235);
+}
+
+.post-detail-inner {
+    margin-top: 50px;
+  height: 100%;
+  width: 65%;
+}
+
+.post-detail-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+/* margin-top: 50px; */
+/* margin-bottom: 50px; */
+padding-top: 50px;
+padding-bottom: 50px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid rgb(185, 185, 185);
+}
+
+.post-detail-content-img {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.post-detail-content-img img {
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 50%;
+  object-fit: cover;
+  /* border: 2px solid blue; */
+}
+
+.post-detail-content-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+     border: 2px solid blue; 
+}
+
+.post-detail-content-user {
+  display: flex;
+  align-items: center;
+  /* height: 35px; */
+  width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  border: 2px solid blue;
+}
+
+.post-detail-content-user-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  border: 2px solid red;
+}
+
+.post-detail-content-user-pic img {
+  height: 35px;
+  border: 2px solid purple;
+  border-radius: 50px;
+}
+
+.post-detail-content-user-desc {
+  border: 2px solid green;
+  width: 90%;
+}
+
+.post-detail-content-user-desc-username-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* width: 100%; */
+  /* margin: 0; */
+  /* height: 50%; */
+  border: 2px solid orange;
+}
+
+.post-detail-content-user-desc-username-1 p {
+  margin: 0;
+  width: 100%;
+  border: 2px solid purple;
+}
+
+.post-detail-content-user-desc-username-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.post-detail-content-user-desc-username-2 p {
+     margin: 0;
+     margin-right: 10px ;
+  /* width: 100%; */
+  border: 2px solid purple; 
+}
+
+.post-detail-content-favorite {
+  width: 80%;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.post-detail-content-favorite img {
+  height: 35px;
+}
+
+.post-detail-content-articel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+
+}

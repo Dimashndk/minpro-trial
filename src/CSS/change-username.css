@@ -1,0 +1,81 @@
+.change-username-container {
+    /* border: 2px solid red; */
+}
+
+.change-username-inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 5vh;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid  rgb(185, 185, 185);
+}
+
+.change-username-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid green; */
+}
+
+.change-username-title {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+
+
+.change-username-content-input {
+      max-width: 380px;
+  width: 380px;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 100%;
+  border: 1px solid rgb(185, 185, 185) ;
+}
+
+.change-username-content-input input {
+    background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+  /* border: 1px solid black; */
+}
+
+
+.change-username-btn  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+    /* border: 2px solid black; */
+}
+
+.change-username-btn button {
+width: 250px;
+  background-color: #000;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s
+}
+.change-username-btn :hover {
+    background-color: #4f4f4f;
+}

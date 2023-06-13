@@ -1,0 +1,136 @@
+footer {
+    background-color:#ededed ;
+    display: flex;
+    flex-direction: column;
+    height: 310px;
+    /* border: 2px solid red; */
+}
+
+.footer-content {
+    display: flex;
+    height: 255px;
+    /* border: 2px solid blue; */
+}
+
+.footer-section-first {
+    width: 20%;
+    margin-left: 10%;
+    height: 255px;
+    /* border: 2px solid purple; */
+}
+
+.footer-newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid yellow; */
+}
+
+.newsletter-heading {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: 2px solid green; */
+}
+
+.footer-section-second {
+    width: 20%;
+    height: 255px;
+    /* text-align: left; */
+    margin-left: 10%;
+    /* border: 2px solid purple; */
+}
+
+.categories-heading {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: 2px solid green; */
+}
+
+.footer-categories-center {
+    display: flex;
+    height: 180px;
+    /* border: 2px solid orange; */
+}
+
+.footer-categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* text-align: left; */
+    width: 50%;
+    /* border: 2px solid yellow; */
+}
+
+.footer-third {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    width: 20%;
+    /* border: 2px solid blue; */
+}
+
+.footer-logo {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items:  flex-end;
+    object-fit: contain;
+    height: 120px;
+    /* border: 2px solid green; */
+}
+
+.footer-img {
+    width: 50%;
+    /* border: 2px solid orange; */
+}
+
+.footer-title {
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid brown; */
+}
+
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid purple; */
+}
+
+.social-media img {
+    width: 30px;
+    margin: 10px;
+}
+
+.footer-fourth {
+    /* margin-top: 0; */
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid purple; */
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.footer-hr {
+    color: black;
+    width: 100%;
+    /* margin-bottom:50px; */
+}
+
+.footer-a {
+    color: #626262;
+    text-decoration: none;
+}

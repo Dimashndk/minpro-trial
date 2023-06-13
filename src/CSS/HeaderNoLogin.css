@@ -1,0 +1,98 @@
+.header-landing-page {
+  /* width: 100vw; */
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  /* overflow: hidden; */
+  top: 0;
+  background-color: white;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+  /* z-index: 2; */
+  border: 2px solid red;
+}
+
+.main-heading {
+  display: flex;
+  width: 20vw;
+  height: 8vh;
+  margin-left: 100px;
+  /* margin-left: 20px; */
+  border: 2px solid green;
+}
+
+.main-heading-img {
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+  width: 30%;
+  height: 100%;
+  border: 2px solid black;
+}
+
+.main-heading-img img {
+  height: 8vh;
+}
+
+.main-heading-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  width: 70%;
+  /* border: 2px solid orange; */
+}
+
+.main-heading-title h1{
+  font-size: large;
+}
+.main-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20vw;
+  margin-right: 100px;
+  /* margin-right: 20px; */
+  /* border: 2px solid green; */
+}
+
+.main-button-login {
+  display: flex;
+  /* border: 2px solid rebeccapurple; */
+}
+
+.button-sign-in {
+  margin-right: 10px;
+}
+
+.login-btn {
+  height: 45px;
+  width: 80px;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border: white;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #3e3e3e;
+}
+
+.register-btn {
+  height: 45px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #d2d2d2;
+}

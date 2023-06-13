@@ -1,0 +1,114 @@
+.mini-article {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10vb;
+    margin-bottom: 10vb;
+    height: 80vh;
+    display: flex;
+    border: 2px solid red;
+}
+
+.popular-post-section {
+    width: 70%;
+    border: 2px solid green;
+}
+
+
+.popular-post {
+    display: flex;
+    border: 2px solid chocolate;
+}
+
+.heading-popular-post {
+    display: flex;
+    flex-direction: column;
+    width:58%;
+    object-fit: contain;
+    border: 2px solid blue;
+}
+
+.heading-popular-post-content {
+    border: 2px solid olive;
+}
+
+.mini-article-h3 {
+    height: 50px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin: 0;
+}
+
+.mini-article-h4  {
+    
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+.mini-article-p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.sneak-peek-popular-post {
+    width: 41%;
+    border: 2px solid yellow;
+}
+
+.sneak-peek-with-pic {
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 20px;
+    width: 100%;
+    /* margin-left: 20px; */
+    border: 2px solid pink;
+}
+
+.sp-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.sneak-peek-popular-content {
+    height: 120px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 30px; */
+    border:  2px solid turquoise;
+}
+
+
+
+
+
+.trending-post-section {
+    width: 30%;
+    border: 2px solid black
+}
+
+.trending-post-entry {
+    border: 2px solid orange;
+}
+
+.trending-sneak-peek {
+    display: flex;
+    border: 2px solid purple;
+}
+
+.trending-sneak-peek-num {
+    height: 120px;
+    width: 15%;
+    font-size: xxx-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    border: 2px solid green;
+}
+
+.trending-sneak-peek-content {
+    height: 120px;
+    width: 85%;
+    border:  2px solid turquoise;
+}
